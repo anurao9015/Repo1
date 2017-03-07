@@ -15,6 +15,9 @@ class ReverseNumber
           reverse = reverse * 10;
           reverse = reverse + n%10;
           n = n/10;
+      } else
+      {
+      System.out.println("Null value is entered");
       }
  
       System.out.println("Reverse of entered number is "+reverse);
